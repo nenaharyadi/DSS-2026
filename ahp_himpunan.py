@@ -68,9 +68,9 @@ def print_matrix_info(name, A):
     print("Matriks perbandingan berpasangan:")
     print(A)
     print("Vektor bobot (w):", np.round(w, 4))
-    print(f"Lambda max (t)  : {t:.4f}")
-    print(f"CI              : {CI:.4f}")
-    print(f"CR              : {CR:.4f}  -> {'KONSISTEN' if CR <= 0.1 else 'TIDAK KONSISTEN'}")
+    print(f"Lambda max (t) : {t:.4f}")
+    print(f"CI : {CI:.4f}")
+    print(f"CR : {CR:.4f}  -> {'KONSISTEN' if CR <= 0.1 else 'TIDAK KONSISTEN'}")
     return w
 
 
