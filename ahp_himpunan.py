@@ -1,8 +1,10 @@
-import numpy as np
+# ============================================================
+# Nama      : Inaaya Azeen Nadira & Nena Haryadi Puspanegara
+# NPM       : 140810240024 & 140810240034
+# Deskripsi : Tugas DSS AHP dengan hardcode data untuk pemilihan lokasi ruang himpunan mahasiswa
+# ============================================================
 
-# ============================================================
-# KONSTANTA & TABEL ACUAN
-# ============================================================
+import numpy as np
 
 # Deklarasi Tabel Indeks Random (RI) standar Saaty berdasarkan ukuran matriks (n).
 # Digunakan sebagai pembagi untuk menghitung Consistency Ratio (CR).
